@@ -1,0 +1,58 @@
+body {
+  background-color:white;
+  font-family:cursive;
+  
+  
+  }
+.quiz{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/343/533/small/yellow-quiz-time-banner-with-comic-style-background-suitable-for-use-for-promotional-designs-vector.jpg");
+  background-image: cover;
+  background-color: black;
+  border:5px dashed #0000ff;
+  width:1000px;
+  padding:30px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  font-size:25px;
+  color:navy;
+  }
+  .score-section{
+    
+    background-color: rgb(10, 226, 246);
+    font-size:40px;
+    display:flex;
+    align-items:center;
+  }
+  .answer-section{
+    background-color: rgb(7, 31, 243);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    
+  }
+  .question-section{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: red;    
+  }
+  button{
+    background-color: aqua;
+    color:brown;
+    border-radius: 50px;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    font-size: 20px;
+    font-family: monospace;
+  }
+  button:hover{
+    background-color: black;
+    color:rgb(243, 11, 189);
+  }
+  .question-text{
+    text-shadow:5px 5px 6px white;
+    color:blue;
+    font-size: 30px;
+  }
